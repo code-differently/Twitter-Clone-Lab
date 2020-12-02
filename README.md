@@ -1,54 +1,33 @@
 # Twitter Clone Lab
 
 ## Description
-You will create a resume page and contact form using HTML. After completing each bullet point in the requirements, you should commit and push your changes. To commit a change, you can follow the following steps:
-
-1. Add files to staging: `git add .`
-2. Commit staged files: `git commit -m '<some-information-message-here>'
-3. Push changes to GitHub `git push`
+You will create your own version of Twitter! After completing each bullet point in the requirements, you should commit and push your changes.
 
 ## Setup
 1. Fork this repository
 2. Clone your repository to your local machine `git clone`
 3. Open the project in your text editor
-4. Create HTML pages in the root directory
-5. Create a folder named 'images' and add image files to this directory
+4. Create HTML, CSS, and JavaScript files in the root directory
 
-### Tech Stack
-A list of expected technology to be used in this assignment
-
-* HTML
-* Web Browser
- 
 ## Requirements
 
 ### Part 1
+Read in tweet data provide in `data.js` and render the information as tweets. The file `data.js` consits of an array of objects. Each object should be rendered as a tweet on the screen and all the tweets should be rendered in a list.
 
-Create a web page that displays your resume. The web page should consist of the following sections:
-
-* Name
-* Objective (3 sentence minimun)
-* Work Experience (no less than 2 previous/present jobs)
-* Education
-* Skills (3 skills minimum)
-* LinkedIn Profile Address
-* Profile Image
-* Any awards and/or certificates if applicable
 
 ### Part 2
+Make a REST call using AJAX to get tweet information rather than the `data.js` file. You can expect the response data to be in the same form as `data.js`.
 
-Now is time create a 2nd page. This page will contain a contact form. The form should have the following fields:
+## Mockups
+### Tweet
+<div style="border: black solid 2px">
 
-* First Name (text field, limit of 30 characters)
-* Last Name (text field, limit of 30 characters)
-* Contact phone number (text field)
-* Phone number type: Landline, Mobile (radio button)
-* Contact email (text field, limit of 50 characters)
-* How did you hear about us: Search Engine, Social Media, Recruiter (drop down)
-* Interest for contacting: A list of your skills (check box)
-* Message (text area, limit of 250 characters)
-* Use of labels with all form fields
-* Use of validation
+![tweet](sampleTweet.png)
+
+</div>
+
+### Webpage
+![tweet](webpageLayout.png)
 
 ### Submission
 Create a pull request from your project GitHub page
